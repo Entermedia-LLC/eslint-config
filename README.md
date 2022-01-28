@@ -8,7 +8,13 @@
 
 ## Installation
 
-1. Install [@entermedia-llc/eslint-config](https://github.com/Entermedia-LLC/eslint-config) as a development dependency of your project:
+1. Install all peer dependencies
+
+```sh
+npx install-peerdeps --dev @entermedia-llc/eslint-config
+```
+
+2. Install [@entermedia-llc/eslint-config](https://github.com/Entermedia-LLC/eslint-config) as a development dependency of your project:
 
 ```sh
 npm install @entermedia-llc/eslint-config --save-dev
@@ -47,7 +53,7 @@ In order to use this config, choose the one you want and add this configuration 
     "eslintConfig": {
         "extends": "@entermedia-llc/eslint-config"
     }
-}
+}```
 
 Or add a `.eslintrc.js` file to your project root containing:
 
