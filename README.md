@@ -48,20 +48,21 @@ module.exports = {
 
 In order to use this config, choose the one you want and add this configuration to your `package.json`:
 
-````json
+```json
 {
-    "eslintConfig": {
-        "extends": "@entermedia-llc/eslint-config"
-    }
-}```
+  "eslintConfig": {
+    "extends": "@entermedia-llc/eslint-config"
+  }
+}
+```
 
 Or add a `.eslintrc.js` file to your project root containing:
 
 ```js
 module.exports = {
-	extends: ['@entermedia-llc/eslint-config'],
+  extends: ["@entermedia-llc/eslint-config"],
 };
-````
+```
 
 ## VSCode integration
 
