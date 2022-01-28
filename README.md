@@ -37,3 +37,38 @@ module.exports = {
   extends: ["@entermedia-llc/eslint-config/next"],
 };
 ```
+
+## Usage
+
+In order to use this config, choose the one you want and add this configuration to your `package.json`:
+
+````json
+{
+    "eslintConfig": {
+        "extends": "@entermedia-llc/eslint-config"
+    }
+}
+
+Or add a `.eslintrc.js` file to your project root containing:
+
+```js
+module.exports = {
+	extends: ['@entermedia-llc/eslint-config'],
+};
+````
+
+## VSCode integration
+
+We recommend turning on VSCode settings to automatically run `eslint --fix` on save.
+
+```json
+"editor.codeActionsOnSave": {
+   "source.fixAll.eslint": true,
+}
+```
+
+This will automagically format your code once you save. You don't need VSCode prettier extension enabled or running on save as eslint will automatically run `prettier` for you.
+
+## Support Level
+
+**Active:** Entermedia is actively working on this, and we expect to continue work for the foreseeable future. Bug reports, feature requests, questions, and pull requests are welcome.
