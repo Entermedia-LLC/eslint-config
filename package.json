@@ -1,5 +1,5 @@
 {
-  "name": "@entermedia/eslint-config",
+  "name": "@entermedia-llc/eslint-config",
   "version": "1.0.0",
   "description": "A shareable ESLint configuration",
   "devDependencies": {
