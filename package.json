@@ -1,0 +1,23 @@
+{
+  "name": "@entermedia/eslint-config",
+  "version": "1.0.0",
+  "description": "A shareable ESLint configuration",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Entermedia-LLC/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Entermedia-LLC/best-practices/issues"
+  },
+  "author": "Entermedia <info@entermedia.com> (https://entermedia.com)",
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/Entermedia-LLC/eslint-config#readme",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "entermedia"
+  ]
+}
