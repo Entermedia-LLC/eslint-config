@@ -34,6 +34,6 @@ Extends `@entermedia-llc/eslint-config` adding specific rules to Next.
 ```js
 // eslintrc.js
 module.exports = {
-  extends: ["@10up/eslint-config/next"],
+  extends: ["@entermedia-llc/eslint-config/next"],
 };
 ```
